@@ -13,6 +13,8 @@
 		D2809CFE1A72106B0016DD05 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D2809CFD1A72106B0016DD05 /* Images.xcassets */; };
 		D2809D011A72106B0016DD05 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D2809CFF1A72106B0016DD05 /* LaunchScreen.xib */; };
 		D2809D0D1A72106B0016DD05 /* TagTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2809D0C1A72106B0016DD05 /* TagTests.swift */; };
+		D2C5F61F1A7E4E22004B7224 /* TGButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C5F61E1A7E4E22004B7224 /* TGButton.swift */; };
+		D2E609E51A7E1FAD004DE9AA /* TGGameModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2E609E41A7E1FAD004DE9AA /* TGGameModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		D2809D061A72106B0016DD05 /* TagTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TagTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2809D0B1A72106B0016DD05 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D2809D0C1A72106B0016DD05 /* TagTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TagTests.swift; sourceTree = "<group>"; };
+		D2C5F61E1A7E4E22004B7224 /* TGButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TGButton.swift; sourceTree = "<group>"; };
+		D2E609E41A7E1FAD004DE9AA /* TGGameModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TGGameModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +83,8 @@
 			children = (
 				D2809CF61A72106B0016DD05 /* AppDelegate.swift */,
 				D2809CF81A72106B0016DD05 /* ViewController.swift */,
+				D2E609E41A7E1FAD004DE9AA /* TGGameModel.swift */,
+				D2C5F61E1A7E4E22004B7224 /* TGButton.swift */,
 				D2809CFA1A72106B0016DD05 /* Main.storyboard */,
 				D2809CFD1A72106B0016DD05 /* Images.xcassets */,
 				D2809CFF1A72106B0016DD05 /* LaunchScreen.xib */,
@@ -212,8 +218,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D2C5F61F1A7E4E22004B7224 /* TGButton.swift in Sources */,
 				D2809CF91A72106B0016DD05 /* ViewController.swift in Sources */,
 				D2809CF71A72106B0016DD05 /* AppDelegate.swift in Sources */,
+				D2E609E51A7E1FAD004DE9AA /* TGGameModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -405,6 +413,7 @@
 				D2809D121A72106B0016DD05 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D2809D131A72106B0016DD05 /* Build configuration list for PBXNativeTarget "TagTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +422,7 @@
 				D2809D151A72106B0016DD05 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
